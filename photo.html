@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Gallery</title>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+		$(document).ready(
+			function () {
+				$("#gallery li img").hover(function(){
+					$("#main-img").attr('src',$(this).attr('src').replace('thumb/',''));
+				});
+			});
+	</script>
+	<link href='http://fonts.googleapis.com/css?family=Sonsie+One|Leckerli+One|Courgette' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="photo.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<ul class="navigation">
+			<li><a href="index.html">Emily Lao</a></li>
+			<li id="about"><a href="about.html">About Me</a></li>
+			<li id="project"><a href="projects.html">Projects</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<h1 class="title">jQuery Photo Gallery</h1>
+		<div id="gallery">
+			<img src="Images/img/img_1.jpg" id="main-img">
+			<ul>
+				<li><img src="Images/img/thumb/img_1.jpg"></li>
+				<li><img src="Images/img/thumb/img_2.jpg"></li>
+				<li><img src="Images/img/thumb/img_3.jpg"></li>
+				<li><img src="Images/img/thumb/img_4.jpg"></li>
+				<li><img src="Images/img/thumb/img_5.jpg"></li>
+				<li><img src="Images/img/thumb/img_6.jpg"></li>
+			</ul>
+		</div>
+	</div>	
+</body>
+</html>

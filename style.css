@@ -1,0 +1,93 @@
+body{
+	background: #94A9D4;
+}
+
+.navigation li{
+	list-style-type: none;
+	display: inline;
+	margin-bottom: 10px;
+	padding-left: 0px;
+}
+
+#about{
+	float: right;
+}
+
+.navigation a:link{
+	text-decoration: none;
+	color: #000066;
+	font-size: 20px;
+	font-family: 'Sonsie One', cursive;
+}
+
+.navigation a:visited{
+	color: #5C007A;
+}
+
+.navigation a:hover{
+	color: #4D94FF;
+}
+
+.picture{
+	height: 700px;
+	width: 1000px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome{
+	text-align: center;
+	font-family: 'Courgette', cursive;
+}
+
+#project{
+	margin-left: 350px;
+}
+
+.facebook{
+	height: 50px;
+	width: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navig li{
+	list-style-type: none;
+	display: inline;
+	margin-bottom: 10px;
+	padding-left: 0px;
+}
+
+#me{
+	float: right;
+}
+
+.navig a:link{
+	text-decoration: none;
+	color: #000066;
+	font-size: 20px;
+	font-family: 'Sonsie One', cursive;
+}
+
+.navig a:visited{
+	color: #5C007A;
+}
+
+.navig a:hover{
+	color: #4D94FF;
+}
+
+#pray{
+	height: 350px;
+	width: 400px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio{
+	font-family: 'Leckerli One', cursive;
+	font-size: 25px;
+}
