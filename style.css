@@ -95,7 +95,6 @@ body{
 .list{
 	font-family: 'Courgette', cursive;
 	font-size: 30px;
-	margin-bottom: -3px;
 }
 
 .projects{
@@ -105,5 +104,4 @@ body{
 .texts{
 	font-family: 'Leckerli One', cursive;
 	font-size: 20px;
-	margin-bottom: -2px;
 }
