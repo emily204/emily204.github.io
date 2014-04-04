@@ -97,6 +97,10 @@ body{
 	font-size: 30px;
 }
 
+#gal{
+	margin-top: 2px;
+}
+
 .projects{
 	text-align: center;
 }
