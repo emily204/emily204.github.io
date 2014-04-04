@@ -92,7 +92,7 @@ body{
 	font-size: 25px;
 }
 
-#list{
+.list{
 	font-family: 'Courgette', cursive;
 	font-size: 30px;
 }
@@ -101,7 +101,7 @@ body{
 	text-align: center;
 }
 
-#texts{
+.texts{
 	font-family: 'Leckerli One', cursive;
 	font-size: 20px;
 }
