@@ -100,3 +100,8 @@ body{
 .projects{
 	text-align: center;
 }
+
+#texts{
+	font-family: 'Leckerli One', cursive;
+	font-size: 15px;
+}
