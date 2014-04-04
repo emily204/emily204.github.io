@@ -105,3 +105,16 @@ body{
 	font-family: 'Leckerli One', cursive;
 	font-size: 20px;
 }
+
+.projects a:link{
+	text-decoration: none;
+	color: #000066;
+}
+
+.projects a:visited{
+	color: #5C007A;
+}
+
+.projects a:hover{
+	color: #4D94FF;
+}
